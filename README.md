@@ -6,13 +6,6 @@ This project aims to enhance the accuracy of forecasting Apple's stock price by 
 ## Data Loading and Preprocessing
 The data, initially stored in a single large file, was separated into four CSV files due to GitHub's file size restrictions. These files are then combined into a single DataFrame for analysis.
 
-```python
-import pandas as pd
-df1 = pd.read_csv('https://raw.githubusercontent.com/Zaanis/AAPL-Predictor/main/AAPLFINAL1.csv')
-df2 = pd.read_csv('https://raw.githubusercontent.com/Zaanis/AAPL-Predictor/main/AAPLFINAL2.csv')
-df3 = pd.read_csv('https://raw.githubusercontent.com/Zaanis/AAPL-Predictor/main/AAPLFINAL3.csv')
-df4 = pd.read_csv('https://raw.githubusercontent.com/Zaanis/AAPL-Predictor/main/AAPLFINAL4.csv')
-df = pd.concat([df1, df2, df3, df4])
 
 ## Key Steps in Analysis
 
